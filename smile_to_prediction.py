@@ -214,7 +214,7 @@ def RO_prediction(smile, file_name="C:/Users/nakamukai/Desktop/"):
     variables = 200
     df_test = convert_by_PCA(smile, file_name)
     df_reference = pd.read_csv("{}Fingerprints/PredRet_Nematostella/PredRet_Nematostella_pca_all_test.csv".format(file_name), index_col=0)
-    model_file = "{}model/model_no_peptides_200.pkl".format(file_name)
+    model_file = "{}model/model_mix_count_PredRet_Nematostella_pca_200.pkl".format(file_name)
     loaded_model = joblib.load(model_file)
 
     df_target_variables = df_test.iloc[:, :variables]
