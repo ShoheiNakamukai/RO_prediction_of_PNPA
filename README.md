@@ -68,3 +68,7 @@ Corosolic acid: 0
 ```
 
 The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and Coniferyl aldehyde in the reversed phase liquid chromatography.
+
+## MACCS_list
+
+The SMARTS pattern in MACCS_list_166.csv can be downloaded from [here](https://github.com/cdk/cdk/blob/4004eb64fd7e94a0da674ae2c0eedba79fda425f/descriptor/fingerprint/src/main/resources/org/openscience/cdk/fingerprint/data/SMARTS_countable_MACCS_keys.txt)
