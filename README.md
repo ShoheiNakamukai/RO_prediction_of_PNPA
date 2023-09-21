@@ -6,6 +6,10 @@ Scripts used to run the retention order prediction presented in the paper:
 
 _Shohei Nakamukai, Eisuke Hayakawa, Masanori Arita_
 
+## Downloads
+
+When you use the prediction model, you have to prepare the all scripts from [here](https://version.aalto.fi/gitlab/bache1/retention_order_prediction/-/tree/master/src?ref_type=heads).They are 
+
 ## Usage
 
 Retention order prediction of the paper can be reproduced by using the smile_to_prediction.py
@@ -49,10 +53,10 @@ p-Hydroxybenzyl glucosinolate: 1
 Cyanidin-3-O-sambubioside-5-O-glucoside: 1
 Carbazochrome sulfonate: 1
 Sinomenine: 1
-(-)-Epicatechin: 1
-7,8-Dihydroxycoumarin: 1
-Isovitexin(4): 1
-3-Hydroxycinnamic acid: 1
+(-)-Epicatechin: 0
+7,8-Dihydroxycoumarin: 0
+Isovitexin(4): 0
+3-Hydroxycinnamic acid: 0
 Coniferyl aldehyde: 0
 3,4-Dimethoxycinnamic acid: 0
 Quercetin: 0
@@ -71,6 +75,7 @@ Corosolic acid: 0
 
 The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and Coniferyl aldehyde in the reversed phase liquid chromatography.
 
-## MACCS_list
+## Reference
 
+Scripts in the src folder are cited from []
 The SMARTS pattern in MACCS_list_166.csv can be downloaded from [here](https://github.com/cdk/cdk/blob/4004eb64fd7e94a0da674ae2c0eedba79fda425f/descriptor/fingerprint/src/main/resources/org/openscience/cdk/fingerprint/data/SMARTS_countable_MACCS_keys.txt)
