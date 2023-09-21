@@ -78,6 +78,34 @@ def smile_to_fps(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
   return(fps)
 
 
+# A function to convert each counting fingerprint's bit data derived from R into a bit sequence
+def fps_from_R(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
+
+    import pandas as pd
+    fps = smile_to_fps(smile, type_1)
+    
+    row_names = ["{}".format(smile)]
+
+    df = pd.DataFrame(fps.values, index=row_names, columns=fps.columns)
+
+    df.columns = df.columns.str.strip()
+
+    df = df.astype(int)
+    # Read the CSV file containing column information for each fingerprint
+    fps_columns = pd.read_csv("{1}Fingerprints/PredRet_Nematostella/{0}_columns.csv".format(type_1, file_name))
+
+    # Identify columns in the fingerprint that do not exist in the DataFrame
+    new_columns = [col for col in fps_columns.columns if col not in df.columns]
+
+    # Add new columns to the fingerprint DataFrame and initialize their values to 0
+    for new_col in new_columns:
+        df[new_col] = 0
+
+    # Reorder the columns of the fingerprint to match the order in fps_columns
+    fps = df[fps_columns.columns]
+
+    return(fps)
+
 # A function to convert MACCS counting fingerprint's bit data derived from R into a bit sequence
 def maccs_from_R(smile, file_name="C:/Users/nakamukai/Desktop/"):
     
