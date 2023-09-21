@@ -1,5 +1,5 @@
 # Function to convert SMILES to MACCS fingerprints
-def smile_to_maccs(smile, file_name="C:/Users/nakamukai/Desktop/"):
+def smile_to_maccs(smile, file_name="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/"):
   
   import pyper
 
@@ -40,7 +40,7 @@ def smile_to_maccs(smile, file_name="C:/Users/nakamukai/Desktop/"):
 
 
 # A function to convert SMILES to bit data of counting fingerprints
-def smile_to_fps(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
+def smile_to_fps(smile, type_1, file_name="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/"):
   
   import pyper
 
@@ -79,7 +79,7 @@ def smile_to_fps(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
 
 
 # A function to convert each counting fingerprint's bit data derived from R into a bit sequence
-def fps_from_R(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
+def fps_from_R(smile, type_1, file_name="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/"):
 
     import pandas as pd
     fps = smile_to_fps(smile, type_1)
@@ -107,7 +107,7 @@ def fps_from_R(smile, type_1, file_name="C:/Users/nakamukai/Desktop/"):
     return(fps)
 
 # A function to convert MACCS counting fingerprint's bit data derived from R into a bit sequence
-def maccs_from_R(smile, file_name="C:/Users/nakamukai/Desktop/"):
+def maccs_from_R(smile, file_name="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/"):
     
     import pandas as pd
     # Read bit data derived from R
@@ -200,7 +200,7 @@ def convert_by_PCA(smile, file_name):
 
 
 # Function to perform retention order prediction from SMILE
-def RO_prediction(smile, file_name="C:/Users/nakamukai/Desktop/"):
+def RO_prediction(smile, file_name="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/"):
     
     import os 
     import pandas as pd
