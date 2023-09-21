@@ -24,7 +24,7 @@ RO_prediction(smile, file)
 
 ```
 
-Please enter the SMILES representation of the compound for which you want to predict the holding order in the "smile". In the "file", please enter the absolute path to the folder where you have downloaded the necessary files
+Please input the "smile" with the SMILES representation of the molecule whose retention order you want to predict. In the "file", please enter the absolute path to the folder where you have downloaded the necessary files
 
 For example, when you predict the retention order of α-amanitin and the downloaded files are in "C:/Users/nakamukai/Desktop/", please run the script as follows:
 
