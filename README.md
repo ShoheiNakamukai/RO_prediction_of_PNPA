@@ -35,3 +35,5 @@ import smile_to_prediction
 RO_prediction(smile= "CCC(C)[C@@H]1NC(=O)CNC(=O)[C@@H]2Cc3c([nH]c4cc(O)ccc34)S(=O)C[C@H](NC(=O)CNC1=O)C(=O)N[C@@H](CC(=O)N)C(=O)N1C[C@H](O)C[C@H]1C(=O)N[C@@H]([C@@H](C)[C@@H](O)CO)C(=O)N2", file ="C:/Users/nakamukai/Desktop/")
 
 ```
+
+The result is displayed as 0 or 1, where 1 indicates a prediction of retention order that comes after the reference compound, and 0 indicates a prediction of retention order that comes before the reference compound.
