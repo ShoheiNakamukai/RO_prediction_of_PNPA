@@ -20,20 +20,51 @@ Retention order prediction of the paper can be reproduced by using the smile_to_
 
 import smile_to_prediction
                         
-RO_prediction(smile, file)
+smile_to_prediction.RO_prediction(smile, file_name)
 
 ```
 
 Please input the "smile" with the SMILES representation of the molecule whose retention order you want to predict. In the "file", please enter the absolute path to the folder where you have downloaded the necessary files
 
-For example, when you predict the retention order of α-amanitin and the downloaded files are in "C:/Users/nakamukai/Desktop/", please run the script as follows:
+The result is displayed as 0 or 1, where 1 indicates a prediction of retention order that comes after the reference compound, and 0 indicates a prediction of retention order that comes before the reference compound.
+
+For example, when you predict the retention order of α-amanitin and the downloaded files are in "C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/", please run the script as follows:
 
 ```
 
 import smile_to_prediction
 
-RO_prediction(smile= "CCC(C)[C@@H]1NC(=O)CNC(=O)[C@@H]2Cc3c([nH]c4cc(O)ccc34)S(=O)C[C@H](NC(=O)CNC1=O)C(=O)N[C@@H](CC(=O)N)C(=O)N1C[C@H](O)C[C@H]1C(=O)N[C@@H]([C@@H](C)[C@@H](O)CO)C(=O)N2", file ="C:/Users/nakamukai/Desktop/")
+smile_to_prediction.RO_prediction(smile= "CCC(C)[C@@H]1NC(=O)CNC(=O)[C@@H]2Cc3c([nH]c4cc(O)ccc34)S(=O)C[C@H](NC(=O)CNC1=O)C(=O)N[C@@H](CC(=O)N)C(=O)N1C[C@H](O)C[C@H]1C(=O)N[C@@H]([C@@H](C)[C@@H](O)CO)C(=O)N2", file_name ="C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/")
 
 ```
 
-The result is displayed as 0 or 1, where 1 indicates a prediction of retention order that comes after the reference compound, and 0 indicates a prediction of retention order that comes before the reference compound.
+You can obtain the result as follows:
+
+```
+
+2-Propenyl glucosinolate: 1
+p-Hydroxybenzyl glucosinolate: 1
+Cyanidin-3-O-sambubioside-5-O-glucoside: 1
+Carbazochrome sulfonate: 1
+Sinomenine: 1
+(-)-Epicatechin: 1
+7,8-Dihydroxycoumarin: 1
+Isovitexin(4): 1
+3-Hydroxycinnamic acid: 1
+Coniferyl aldehyde: 0
+3,4-Dimethoxycinnamic acid: 0
+Quercetin: 0
+4-Methoxycinnamic acid: 0
+2-Methoxycinnamic acid: 0
+isoliquiritigenin: 0
+6-Hydroxyflavanone: 0
+2'-Hydroxyflavanone: 0
+Atractylenolide III: 0
+trans-pterostilbene: 0
+Triacetyl resveratrol: 0
+Magnolol: 0
+Corosolic acid: 0
+
+```
+
+The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and Coniferyl aldehyde in the reversed phase liquid chromatography.
