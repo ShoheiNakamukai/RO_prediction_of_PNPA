@@ -28,6 +28,8 @@ Please input the "smile" with the SMILES representation of the molecule whose re
 
 The result is displayed as 0 or 1, where 1 indicates a prediction of retention order that comes after the reference compound, and 0 indicates a prediction of retention order that comes before the reference compound.
 
+## Example
+
 For example, when you predict the retention order of α-amanitin and the downloaded files are in "C:/Users/nakamukai/Desktop/RO_prediction_of_PNPA/", please run the script as follows:
 
 ```
