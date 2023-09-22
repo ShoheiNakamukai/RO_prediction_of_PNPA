@@ -75,19 +75,8 @@ The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and 
 
 ## Reference
 
-Scripts in the src folder are cited from paper 
+Scripts in the src folder are cited from the paper 
 
-@article{doi:10.1093/bioinformatics/bty590,
-    author  = {Bach, Eric and Szedmak, Sandor and Brouard, Céline and Böcker, Sebastian and Rousu, Juho},
-    title   = {Liquid-chromatography retention order prediction for metabolite identification},
-    journal = {Bioinformatics},
-    volume  = {34},
-    number  = {17},
-    pages   = {i875-i883},
-    year    = {2018},
-    doi     = {10.1093/bioinformatics/bty590},
-    URL     = {http://dx.doi.org/10.1093/bioinformatics/bty590},
-    eprint  = {/oup/backfile/content_public/journal/bioinformatics/34/17/10.1093_bioinformatics_bty590/2/bty590.pdf}
-}
+Bach, E., Szedmak, S., Brouard, C., Böcker, S., & Rousu, J. (2018). Liquid-chromatography retention order prediction for metabolite identification. Bioinformatics, 34(17), i875–i883. https://doi.org/10.1093/bioinformatics/bty590
 
 The SMARTS pattern in MACCS_list_166.csv can be downloaded from [here](https://github.com/cdk/cdk/blob/4004eb64fd7e94a0da674ae2c0eedba79fda425f/descriptor/fingerprint/src/main/resources/org/openscience/cdk/fingerprint/data/SMARTS_countable_MACCS_keys.txt)
