@@ -14,7 +14,7 @@ Retention order prediction of the paper can be reproduced by using the smile_to_
 
 2. Clone this repository or download the source code and data folders.
 
-3. Prepare the all scripts from [here](https://version.aalto.fi/gitlab/bache1/retention_order_prediction/-/tree/master/src?ref_type=heads). Please place all of them in the folder "RO_prediction_of_PNPA/src". 
+3. Prepare all scripts from [here](https://version.aalto.fi/gitlab/bache1/retention_order_prediction/-/tree/master/src?ref_type=heads). Please place all of them in the folder "RO_prediction_of_PNPA/src". 
 
 4. Run the script by executing the following command.
 
