@@ -8,7 +8,7 @@ _Shohei Nakamukai, Eisuke Hayakawa, Masanori Arita_
 
 ## Downloads
 
-When you use the prediction model, you have to prepare the all scripts from [here](https://version.aalto.fi/gitlab/bache1/retention_order_prediction/-/tree/master/src?ref_type=heads).They are 
+When you use this prediction model, you have to prepare the all scripts from [here](https://version.aalto.fi/gitlab/bache1/retention_order_prediction/-/tree/master/src?ref_type=heads). Please place all of these scripts in the folder "RO_prediction_of_PNPA/src". 
 
 ## Usage
 
