@@ -79,4 +79,4 @@ Scripts in the src folder are cited from the paper
 
 Bach, E., Szedmak, S., Brouard, C., Böcker, S., & Rousu, J. (2018). Liquid-chromatography retention order prediction for metabolite identification. Bioinformatics, 34(17), i875–i883. https://doi.org/10.1093/bioinformatics/bty590
 
-The SMARTS pattern in MACCS_list_166.csv can be downloaded from [here](https://github.com/cdk/cdk/blob/4004eb64fd7e94a0da674ae2c0eedba79fda425f/descriptor/fingerprint/src/main/resources/org/openscience/cdk/fingerprint/data/SMARTS_countable_MACCS_keys.txt)
+The SMARTS pattern in MACCS_list_166.csv is provided by [here](https://github.com/cdk/cdk/blob/4004eb64fd7e94a0da674ae2c0eedba79fda425f/descriptor/fingerprint/src/main/resources/org/openscience/cdk/fingerprint/data/SMARTS_countable_MACCS_keys.txt)
