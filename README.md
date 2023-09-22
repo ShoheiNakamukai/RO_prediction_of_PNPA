@@ -76,6 +76,7 @@ The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and 
 ## Reference
 
 Scripts in the src folder are cited from paper 
+
 @article{doi:10.1093/bioinformatics/bty590,
     author  = {Bach, Eric and Szedmak, Sandor and Brouard, Céline and Böcker, Sebastian and Rousu, Juho},
     title   = {Liquid-chromatography retention order prediction for metabolite identification},
