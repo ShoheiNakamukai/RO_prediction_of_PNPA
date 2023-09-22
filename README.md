@@ -71,7 +71,7 @@ Corosolic acid: 0
 
 ```
 
-The result means that α-amanitin will elute between 3-Hydroxycinnamic acid and Coniferyl aldehyde in the reversed phase liquid chromatography.
+The result means that α-amanitin will elute between Sinomenine and (-)-Epicatechin in the reversed phase liquid chromatography.
 
 ## Reference
 
